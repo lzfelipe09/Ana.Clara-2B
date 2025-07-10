@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanchonete Sabor & Prosa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #d35400;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h1, h2 {
+      color: #c0392b;
+    }
+    .cardapio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .item {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .item h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+    }
+    .item p {
+      margin: 0 10px 10px;
+      font-size: 0.95rem;
+    }
+    .preco {
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #d35400;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lanchonete Sabor & Prosa</h1>
+    <p>O sabor que conta histórias</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nossa História</h2>
+      <p>Fundada em 2015 no coração da cidade, a Lanchonete Sabor & Prosa nasceu da paixão por reunir pessoas ao redor de comidas simples, feitas com carinho e ingredientes de qualidade. Aqui cada lanche tem sua história, e cada bebida acompanha momentos inesquecíveis. Sejam bem-vindos à nossa casa!</p>
+    </section>
+
+    <section>
+      <h2>Cardápio</h2>
+      <div class="cardapio">
+        <!-- Salgados -->
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1625940963970-66445a158479" alt="Hambúrguer artesanal">
+          <h3>Hambúrguer Artesanal</h3>
+          <p>Pão brioche, carne 180g, queijo, alface, tomate e molho da casa.</p>
+          <div class="preco">R$ 24,90</div>
+        </div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1603052875515-4aa0c3d19f5c" alt="Coxinha de frango">
+          <h3>Coxinha de Frango</h3>
+          <p>Clássica e crocante, com recheio cremoso de frango desfiado.</p>
+          <div class="preco">R$ 7,50</div>
+        </div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1613145991743-bb8070e477a3" alt="Torta salgada">
+          <h3>Torta de Frango com Catupiry</h3>
+          <p>Recheio caseiro de frango com catupiry e massa leve.</p>
+          <div class="preco">R$ 12,00</div>
+        </div>
+
+        <!-- Bebidas -->
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1587241321921-689f7e6da7a2" alt="Suco natural de laranja">
+          <h3>Suco Natural de Laranja</h3>
+          <p>Espremido na hora, sem açúcar e super refrescante.</p>
+          <div class="preco">R$ 8,00</div>
+        </div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1571076564080-8363c41b8048" alt="Refrigerante lata">
+          <h3>Refrigerante Lata</h3>
+          <p>Coca-Cola, Guaraná ou Fanta (350ml)</p>
+          <div class="preco">R$ 6,00</div>
+        </div>
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1527168020-7762e0ce4a3b" alt="Café espresso">
+          <h3>Café Espresso</h3>
+          <p>Café intenso, encorpado, ideal para qualquer hora do dia.</p>
+          <div class="preco">R$ 5,00</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lanchonete Sabor & Prosa. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
